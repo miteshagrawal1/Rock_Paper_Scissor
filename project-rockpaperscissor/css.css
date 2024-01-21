@@ -1,0 +1,41 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    height: 70px;
+    width: 70px;
+    padding: 5px;
+    font-size: 40px;
+    text-align: center;
+    margin: 7px;
+    border-radius: 20px;
+    background-color: violet;
+    box-shadow: 0 0 4px black;
+}
+button:hover{
+    transform: scale(1.1);
+}
+span{
+    font-size: x-large;
+}
+span b{
+    font-size: xx-large;
+    font-weight: 700;
+}
+#reset{
+    height: 40px;
+    width: 100px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    margin: 7px;
+    border-radius: 10px;
+    background-color: violet;
+}
+#reset:hover{
+    transform: scale(1.1);
+}
